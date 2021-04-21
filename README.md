@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9cd317de-af59-4d5e-95aa-67992160ff16/deploy-status)](https://app.netlify.com/sites/perf-test-angular/deploys)
+
 # Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.

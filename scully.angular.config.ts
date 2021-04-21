@@ -6,7 +6,7 @@ export const config: ScullyConfig = {
   projectRoot: "./src",
   projectName: "angular",
   outDir: './dist/angular-static',
-  routes: {
-  },
+  routes: {},
+  handle404: 'none',
   defaultPostRenderers: [MinifyHtml]
 };
