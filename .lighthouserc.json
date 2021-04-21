@@ -11,7 +11,8 @@
     },
     "upload":{
       "target":"filesystem",
-      "outputDir":"./dist/angular-static/lighthouse"
+      "outputDir":"./dist/angular-static/_lighthouse",
+      "reportFilenamePattern": "%%PATHNAME%%.report.%%EXTENSION%%"
     }
   }
 }

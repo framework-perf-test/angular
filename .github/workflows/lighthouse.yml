@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env: 
+      BUILD_PATH: 'dist/angular-static'
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.1
@@ -28,8 +30,14 @@ jobs:
       - name: Netlify Actions
         uses: nwtgck/actions-netlify@v1.1.11
         with:
-          publish-dir: dist/angular-static
+          publish-dir: ${{ env.BUILD_PATH }}
           production-deploy: true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PERSONAL_ACCESS_TOKEN }}
           NETLIFY_SITE_ID: 9cd317de-af59-4d5e-95aa-67992160ff16
+
+      - name: Save Build & Results to Lighthouse Branch 
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: lighthouse
+          folder: ${{ env.BUILD_PATH }}
