@@ -18,6 +18,8 @@ jobs:
           node-version: "14"
       - run: yarn install
       - run: yarn build --prod && yarn scully angular
+      # Delete 404.html as scully is failing to not generate 404 with handle404 config and it fails lhci.
+      - run: rm ./dist/angular-static/404.html
       - run: npm install -g @lhci/cli@0.7.x
       - run: lhci autorun
         env:
