@@ -22,22 +22,15 @@ jobs:
       - run: yarn build --prod && yarn scully angular
       # Delete 404.html as scully is failing to not generate 404 with handle404 config and it fails lhci.
       - run: rm ./dist/angular-static/404.html
-      - run: npm install -g @lhci/cli@0.7.x
+      - run: npm install -g @lhci/cli@0.7.x @lighthouse-test/badge-generator
       - run: lhci autorun
+      - run: lighthouse-badge-generator ${{ env.BUILD_PATH }}/_lighthouse
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
-   
-      - name: Netlify Actions
-        uses: nwtgck/actions-netlify@v1.1.11
-        with:
-          publish-dir: ${{ env.BUILD_PATH }}
-          production-deploy: true
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PERSONAL_ACCESS_TOKEN }}
-          NETLIFY_SITE_ID: 9cd317de-af59-4d5e-95aa-67992160ff16
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}x
 
-      - name: Save Build & Results to Lighthouse Branch 
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+      - name: Deploy Build & Results to Github Pages 
+        uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          branch: lighthouse
-          folder: ${{ env.BUILD_PATH }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ${{ env.BUILD_PATH }}
