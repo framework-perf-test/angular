@@ -1,11 +1,11 @@
 [
   {
-    "url": "http://localhost:33183/index.html",
+    "url": "http://localhost:36533/index.html",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
     "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
     "summary": {
-      "performance": 0.74,
+      "performance": 0.76,
       "accessibility": 1,
       "best-practices": 0.93,
       "seo": 1,
@@ -13,10 +13,23 @@
     }
   },
   {
-    "url": "http://localhost:33183/index.html",
+    "url": "http://localhost:36533/index.html",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
     "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.3
+    }
+  },
+  {
+    "url": "http://localhost:36533/lazy/index.html",
+    "isRepresentativeRun": false,
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
     "summary": {
       "performance": 0.98,
       "accessibility": 1,
@@ -26,36 +39,10 @@
     }
   },
   {
-    "url": "http://localhost:33183/lazy/index.html",
+    "url": "http://localhost:36533/lazy/index.html",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
     "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
-    "summary": {
-      "performance": 1,
-      "accessibility": 1,
-      "best-practices": 1,
-      "seo": 0.64,
-      "pwa": 0
-    }
-  },
-  {
-    "url": "http://localhost:33183/lazy/index.html",
-    "isRepresentativeRun": false,
-    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
-    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
-    "summary": {
-      "performance": 1,
-      "accessibility": 1,
-      "best-practices": 1,
-      "seo": 0.64,
-      "pwa": 0
-    }
-  },
-  {
-    "url": "http://localhost:33183/index.html",
-    "isRepresentativeRun": true,
-    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
-    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
     "summary": {
       "performance": 0.98,
       "accessibility": 1,
@@ -65,16 +52,29 @@
     }
   },
   {
-    "url": "http://localhost:33183/lazy/index.html",
+    "url": "http://localhost:36533/index.html",
+    "isRepresentativeRun": true,
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.3
+    }
+  },
+  {
+    "url": "http://localhost:36533/lazy/index.html",
     "isRepresentativeRun": true,
     "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
     "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
     "summary": {
-      "performance": 1,
+      "performance": 0.98,
       "accessibility": 1,
-      "best-practices": 1,
-      "seo": 0.64,
-      "pwa": 0
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.3
     }
   }
 ]
