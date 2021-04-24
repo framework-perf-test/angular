@@ -1,0 +1,46 @@
+<h4>{{ todo.id ? 'Update' : 'Add' }} Todo</h4>
+
+<form (ngSubmit)="updateTodoHandler()" #form="ngForm">
+  <dl>
+    <dt>
+      <label for="name">Name</label>
+    </dt>
+    <dd>
+      <input id="name" type="text" name="name" [(ngModel)]="todo.name" />
+    </dd>
+    <dt>
+      <label for="description">description</label>
+    </dt>
+    <dd>
+      <textarea id="description" name="description" [(ngModel)]="todo.description"></textarea>
+    </dd>
+    <dt>
+      <label for="type">Type</label>
+    </dt>
+    <dl>
+      <label for="type1">Reminder</label>
+      <input id="type1" type="radio" name="type" value="Reminder" [(ngModel)]="todo.type" />
+      <label for="type2">Meeting</label>
+      <input id="type2" type="radio" name="type" value="Meeting" [(ngModel)]="todo.type" />
+    </dl>
+    <dt>
+      <label for="tags">Tags</label>
+    </dt>
+    <dd>
+      <select id="tags" name="tags" multiple [(ngModel)]="todo.tags">
+        <option>Important</option>
+        <option>Docs</option>
+        <option>Issue</option>
+        <option>Backend</option>
+        <option>Frontent</option>
+      </select>
+    </dd>
+    <dt>
+      <label for="date">Date</label>
+    </dt>
+    <dd>
+      <input id="date" type="date" name="date" [(ngModel)]="todo.date" />
+    </dd>
+    <dt><button type="submit">{{ todo.id ? 'Update' : 'Add' }}</button></dt>
+  </dl>
+</form>

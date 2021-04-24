@@ -1,29 +1,52 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9cd317de-af59-4d5e-95aa-67992160ff16/deploy-status)](https://app.netlify.com/sites/perf-test-angular/deploys)
+<h1 align="center">Welcome to @lighthouse-test 👋</h1>
+<p>
+  <a href="https://github.com/lighthouse-test/lighthouse-test.github.io/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/@lighthouse-test/badge-generator" />
+  </a>
+  <a href="https://twitter.com/aceonics" target="_blank">
+    <img alt="Twitter: aceonics" src="https://img.shields.io/twitter/follow/aceonics.svg?style=social" />
+  </a>
+</p>
 
-# Angular
+Direct Loaded: 
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+Lazy Loaded: 
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
 
-## Development server
+> This repository contains angular demo app to test the light house score. This is part of lighthouse test.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### 🏠 [Lighthouse Results](https://lighthouse-test.github.io)
 
-## Code scaffolding
+## Author
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+👤 **Aceonics Reliable IT Services**
 
-## Build
+- Website: [https://www.aceonics.com](https://www.aceonics.com)
+- Twitter: [@aceonics](https://twitter.com/aceonics)
+- Github: [aceonics](https://github.com/aceonics)
+- LinkedIn: [aceonics](https://linkedin.com/company/aceonics)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## 🤝 Contributing
 
-## Running unit tests
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/lighthouse-test/badge-generator/issues). 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Show your support
 
-## Running end-to-end tests
+Give a ⭐️ if this project helped you!
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## 📝 License
 
-## Further help
+Copyright © 2021 [Aceonics Reliable IT Services](https://github.com/aceonics).<br />
+This project is [MIT](https://github.com/lighthouse-test/badge-generator/blob/master/LICENSE) licensed.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
