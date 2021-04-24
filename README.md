@@ -16,11 +16,11 @@ Direct Loaded:
 [![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
 
 Lazy Loaded: 
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
 
 > This repository contains angular demo app to test the light house score. This is part of lighthouse test.
 
