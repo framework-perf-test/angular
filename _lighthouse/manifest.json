@@ -1,41 +1,80 @@
 [
   {
-    "url": "http://localhost:34797/index.html",
+    "url": "http://localhost:33183/index.html",
     "isRepresentativeRun": false,
-    "htmlPath": "/home/runner/work/angular/angular/dist/angular-static/_lighthouse/_index_html.report.html",
-    "jsonPath": "/home/runner/work/angular/angular/dist/angular-static/_lighthouse/_index_html.report.json",
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
     "summary": {
-      "performance": 0.83,
-      "accessibility": 0.91,
-      "best-practices": 1,
-      "seo": 0.82,
+      "performance": 0.74,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
       "pwa": 0.3
     }
   },
   {
-    "url": "http://localhost:34797/index.html",
+    "url": "http://localhost:33183/index.html",
     "isRepresentativeRun": false,
-    "htmlPath": "/home/runner/work/angular/angular/dist/angular-static/_lighthouse/_index_html.report.html",
-    "jsonPath": "/home/runner/work/angular/angular/dist/angular-static/_lighthouse/_index_html.report.json",
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
     "summary": {
-      "performance": 0.99,
-      "accessibility": 0.91,
-      "best-practices": 1,
-      "seo": 0.82,
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
       "pwa": 0.3
     }
   },
   {
-    "url": "http://localhost:34797/index.html",
+    "url": "http://localhost:33183/lazy/index.html",
+    "isRepresentativeRun": false,
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.64,
+      "pwa": 0
+    }
+  },
+  {
+    "url": "http://localhost:33183/lazy/index.html",
+    "isRepresentativeRun": false,
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.64,
+      "pwa": 0
+    }
+  },
+  {
+    "url": "http://localhost:33183/index.html",
     "isRepresentativeRun": true,
-    "htmlPath": "/home/runner/work/angular/angular/dist/angular-static/_lighthouse/_index_html.report.html",
-    "jsonPath": "/home/runner/work/angular/angular/dist/angular-static/_lighthouse/_index_html.report.json",
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_index_html.report.json",
     "summary": {
-      "performance": 0.99,
-      "accessibility": 0.91,
-      "best-practices": 1,
-      "seo": 0.82,
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
       "pwa": 0.3
+    }
+  },
+  {
+    "url": "http://localhost:33183/lazy/index.html",
+    "isRepresentativeRun": true,
+    "htmlPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.html",
+    "jsonPath": "/home/runner/work/angular-static/angular-static/dist/angular-static/_lighthouse/_lazy_index_html.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.64,
+      "pwa": 0
     }
   }
 ]
