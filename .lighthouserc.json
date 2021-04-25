@@ -2,7 +2,7 @@
   "ci":{
     "collect":{
       "staticDistDir":"./dist/angular-static",
-      "url": ["/", "/lazy"]
+      "url": ["/"]
     },
     "assert":{
       "assertions":{

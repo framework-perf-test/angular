@@ -12,24 +12,12 @@
 </p>
 
 <p>
-  Direct Loaded &nbsp; 
   <a href="https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html">
     <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.performance.svg" />
     <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.accessibility.svg" />
     <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.best-practices.svg" />
     <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.seo.svg" />
     <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.pwa.svg" />
-  </a>
-</p>
-
-<p>
-  Lazy Loaded &nbsp; 
-  <a href="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html">
-    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.performance.svg" />
-    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.accessibility.svg" />
-    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.best-practices.svg" />
-    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.seo.svg" />
-    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.pwa.svg" />
   </a>
 </p>
 

@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { TodoModule } from '../todo/todo.module';
-import { DirectComponent } from './direct.component';
+import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [DirectComponent],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     TodoModule
   ]
 })
-export class DirectModule { }
+export class HomeModule { }

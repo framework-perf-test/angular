@@ -4,7 +4,7 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DirectModule } from './direct/direct.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { DirectModule } from './direct/direct.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DirectModule,
+    HomeModule,
     ScullyLibModule
   ],
   providers: [],
