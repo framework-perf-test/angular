@@ -1,26 +1,37 @@
 <h1 align="center">Welcome to @lighthouse-test 👋</h1>
 <p>
-  <a href="https://github.com/lighthouse-test/lighthouse-test.github.io/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/@lighthouse-test/badge-generator" />
+  <a href="https://github.com/lighthouse-test/angular-static/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/lighthouse-test/angular-static/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/@lighthouse-test/angular-static" />
   </a>
   <a href="https://twitter.com/aceonics" target="_blank">
     <img alt="Twitter: aceonics" src="https://img.shields.io/twitter/follow/aceonics.svg?style=social" />
   </a>
 </p>
 
-Direct Loaded:
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
+<p>
+  Direct Loaded &nbsp; 
+  <a href="https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html">
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.performance.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.accessibility.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.best-practices.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.seo.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_.pwa.svg" />
+  </a>
+</p>
 
-Lazy Loaded:
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
+<p>
+  Lazy Loaded &nbsp; 
+  <a href="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html">
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.performance.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.accessibility.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.best-practices.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.seo.svg" />
+    <img src="https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.pwa.svg" />
+  </a>
+</p>
 
 > This repository contains demo app to test the light house score. This is part of lighthouse test.
 
