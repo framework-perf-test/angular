@@ -13,7 +13,9 @@ export interface Todo {
   providedIn: 'root'
 })
 export class TodoService {
-  public todos: Todo[] = []
+  public todos: Todo[] = [
+    { id: 1, name: 'Add more frameworks', description: 'We need to add more frameworks', type: "Reminder", tags: ["Docs", "Issue"], date: new Date() }
+  ];
 
   constructor() { }
 

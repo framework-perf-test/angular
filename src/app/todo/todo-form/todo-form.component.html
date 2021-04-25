@@ -1,46 +1,96 @@
 <h4>{{ todo.id ? 'Update' : 'Add' }} Todo</h4>
 
 <form (ngSubmit)="updateTodoHandler()" #form="ngForm">
-  <dl>
-    <dt>
-      <label for="name">Name</label>
-    </dt>
-    <dd>
-      <input id="name" type="text" name="name" [(ngModel)]="todo.name" />
-    </dd>
-    <dt>
-      <label for="description">description</label>
-    </dt>
-    <dd>
-      <textarea id="description" name="description" [(ngModel)]="todo.description"></textarea>
-    </dd>
-    <dt>
-      <label for="type">Type</label>
-    </dt>
-    <dl>
-      <label for="type1">Reminder</label>
-      <input id="type1" type="radio" name="type" value="Reminder" [(ngModel)]="todo.type" />
-      <label for="type2">Meeting</label>
-      <input id="type2" type="radio" name="type" value="Meeting" [(ngModel)]="todo.type" />
-    </dl>
-    <dt>
-      <label for="tags">Tags</label>
-    </dt>
-    <dd>
-      <select id="tags" name="tags" multiple [(ngModel)]="todo.tags">
-        <option>Important</option>
-        <option>Docs</option>
-        <option>Issue</option>
-        <option>Backend</option>
-        <option>Frontent</option>
-      </select>
-    </dd>
-    <dt>
-      <label for="date">Date</label>
-    </dt>
-    <dd>
-      <input id="date" type="date" name="date" [(ngModel)]="todo.date" />
-    </dd>
-    <dt><button type="submit">{{ todo.id ? 'Update' : 'Add' }}</button></dt>
-  </dl>
+  <table>
+    <tr>
+      <th>
+        <label for="name">Name</label>
+      </th>
+      <td>
+        <input id="name" type="text" name="name" [(ngModel)]="todo.name" #name="ngModel" required />
+      </td>
+      <td>
+        <div *ngIf="name.invalid && (name.dirty || name.touched)">
+          <div *ngIf="name.errors?.required">
+            Name is required.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label for="description">description</label>
+      </th>
+      <td>
+        <textarea id="description" name="description" [(ngModel)]="todo.description" #description="ngModel"
+          required></textarea>
+      </td>
+      <td>
+        <div *ngIf="description.invalid && (description.dirty || description.touched)">
+          <div *ngIf="description.errors?.required">
+            Description is required.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label>Type</label>
+      </th>
+      <td>
+        <label for="type1">Reminder</label>
+        <input id="type1" type="radio" name="type" value="Reminder" [(ngModel)]="todo.type" #type="ngModel" required />
+        <label for="type2">Meeting</label>
+        <input id="type2" type="radio" name="type" value="Meeting" [(ngModel)]="todo.type" #type="ngModel" required />
+      </td>
+      <td>
+        <div *ngIf="type.invalid && (type.dirty || type.touched)">
+          <div *ngIf="type.errors?.required">
+            Type is required.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label for="tags">Tags</label>
+      </th>
+      <td>
+        <select id="tags" name="tags" multiple [(ngModel)]="todo.tags" #tags="ngModel" required>
+          <option>Important</option>
+          <option>Docs</option>
+          <option>Issue</option>
+          <option>Backend</option>
+          <option>Frontent</option>
+        </select>
+      </td>
+      <td>
+        <div *ngIf="tags.invalid && (tags.dirty || tags.touched)">
+          <div *ngIf="tags.errors?.required">
+            Tags is required.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label for="date">Date</label>
+      </th>
+      <td>
+        <input id="date" type="date" name="date" [(ngModel)]="todo.date" #date="ngModel" required />
+      </td>
+      <td>
+        <div *ngIf="date.invalid && (date.dirty || date.touched)">
+          <div *ngIf="date.errors?.required">
+            Date is required.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="2" align="right">
+        <button type="submit">{{ todo.id ? 'Update' : 'Add' }}</button>
+      </th>
+    </tr>
+  </table>
 </form>

@@ -15,8 +15,8 @@ export class TodosComponent {
     this.currentTodo = {};
   }
 
-  selectTodoHandler(todo: Todo) {
-    this.currentTodo = todo;
+  selectTodoHandler(id: number) {
+    this.currentTodo = this.todoService.getTodo(id);
   }
 
   onUpdateTodoHandler(todo: Partial<Todo>) {
@@ -26,6 +26,10 @@ export class TodosComponent {
       this.todoService.updateTodo(<Todo>todo);
     }
     this.currentTodo = null;
+  }
+
+  deleteTodoHandler(id: number) {
+    this.todoService.deleteTodos(id);
   }
 
 }

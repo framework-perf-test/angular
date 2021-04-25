@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, ViewChild } from '@angular/core';
 import { Todo } from '../todo.service';
 
 @Component({
@@ -12,7 +12,14 @@ export class TodoFormComponent {
 
   @Output() onAddOrUpdate = new EventEmitter<Partial<Todo>>();
 
+  @ViewChild('form')
+  form!: any;
+
   updateTodoHandler() {
-    this.onAddOrUpdate.emit(this.todo);
+    if (this.form.valid) {
+      this.onAddOrUpdate.emit(this.todo);
+    } else {
+      alert("All fields are required.");
+    }
   }
 }
