@@ -8,21 +8,21 @@
   </a>
 </p>
 
-Direct Loaded: 
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_index_html.report.html)
+Direct Loaded:
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_.report.html)
 
-Lazy Loaded: 
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
-[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_index_html.report.html)
+Lazy Loaded:
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.performance.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.accessibility.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.best-practices.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.seo.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
+[![Lighthouse Result](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.pwa.svg)](https://lighthouse-test.github.io/angular-static/_lighthouse/_lazy_.report.html)
 
-> This repository contains angular demo app to test the light house score. This is part of lighthouse test.
+> This repository contains demo app to test the light house score. This is part of lighthouse test.
 
 ### 🏠 [Lighthouse Results](https://lighthouse-test.github.io)
 
@@ -37,7 +37,7 @@ Lazy Loaded:
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/lighthouse-test/badge-generator/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/lighthouse-test/lighthouse.github.io/issues).
 
 ## Show your support
 
@@ -45,8 +45,9 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Aceonics Reliable IT Services](https://github.com/aceonics).<br />
-This project is [MIT](https://github.com/lighthouse-test/badge-generator/blob/master/LICENSE) licensed.
+Copyright © 2021 [Aceonics Reliable IT Services](https://www.aceonics.com).<br />
+This project is [MIT](https://github.com/lighthouse-test/angular-static/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

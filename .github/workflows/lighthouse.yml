@@ -20,13 +20,11 @@ jobs:
           node-version: "14"
       - run: yarn install
       - run: yarn build --prod && yarn scully angular
-      # Delete 404.html as scully is failing to not generate 404 with handle404 config and it fails lhci.
-      - run: rm ./dist/angular-static/404.html
       - run: npm install -g @lhci/cli@0.7.x @lighthouse-test/badge-generator
       - run: lhci autorun
       - run: lighthouse-badge-generator ${{ env.BUILD_PATH }}/_lighthouse
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}x
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 
       - name: Deploy Build & Results to Github Pages 
         uses: peaceiris/actions-gh-pages@v3.7.3
