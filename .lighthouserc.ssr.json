@@ -1,8 +1,9 @@
 {
   "ci":{
     "collect":{
-      "url": ["/"],
-      "staticDistDir":"./dist/angular-static"
+      "url": ["http://localhost:4000/"],
+      "startServerCommand":"yarn serve:ssr",
+      "startServerReadyPattern": "Node Express server listening on http://localhost:4000"
     },
     "assert":{
       "assertions":{
@@ -12,7 +13,7 @@
     },
     "upload":{
       "target":"filesystem",
-      "outputDir":"./dist/angular-static/_lighthouse",
+      "outputDir":"./dist/angular/_lighthouse",
       "reportFilenamePattern": "%%PATHNAME%%.report.%%EXTENSION%%"
     }
   }

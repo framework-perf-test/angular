@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.titleService.setTitle('Lighthouse Test | Angular Static Home');
-    this.metaService.updateTag({ name: 'description', content: 'Lighthouse Test | Angular Static Home' });
+    this.titleService.setTitle('Lighthouse Test | Angular SSR Home');
+    this.metaService.updateTag({ name: 'description', content: 'Lighthouse Test | Angular SSR Home' });
   }
 }
