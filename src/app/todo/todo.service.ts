@@ -5,16 +5,25 @@ export interface Todo {
   name: string;
   description: string;
   type: string;
-  tags: string[];
-  date: Date;
+  confidential: string;
+  remind: boolean;
+  date: string;
 }
+
+export const TYPES = [
+  'Feature',
+  'Docs',
+  'Issue',
+  'Backend',
+  'Frontent'
+];
 
 @Injectable({
   providedIn: 'root'
 })
 export class TodoService {
   public todos: Todo[] = [
-    { id: 1, name: 'Add more frameworks', description: 'We need to add more frameworks', type: "Reminder", tags: ["Docs", "Issue"], date: new Date() }
+    { id: 1, name: 'Add more frameworks', description: 'We need to add more frameworks', type: 'Issue', confidential: 'Yes', remind: true, date: '2021-04-07' }
   ];
 
   constructor() { }
@@ -32,7 +41,7 @@ export class TodoService {
     this.todos.push(<Todo>todo);
   }
 
-  deleteTodos(id: number) {
+  deleteTodo(id: number) {
     let todo = this.getTodo(id);
     const index = this.todos.indexOf(todo);
     this.todos.splice(index, 1);

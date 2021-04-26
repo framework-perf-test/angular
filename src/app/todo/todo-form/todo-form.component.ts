@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter, ViewChild } from '@angular/core';
-import { Todo } from '../todo.service';
+import { Todo, TYPES } from '../todo.service';
 
 @Component({
   selector: 'app-todo-form',
@@ -14,6 +14,8 @@ export class TodoFormComponent {
 
   @ViewChild('form')
   form!: any;
+
+  types = TYPES;
 
   updateTodoHandler() {
     if (this.form.valid) {

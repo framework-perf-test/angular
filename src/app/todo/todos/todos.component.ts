@@ -8,11 +8,17 @@ import { Todo, TodoService } from '../todo.service';
 })
 export class TodosComponent {
   public currentTodo: Partial<Todo> | null = null;
+  public todos: Todo[];
 
-  constructor(public todoService: TodoService) { }
+  constructor(public todoService: TodoService) {
+    this.todos = todoService.getTodos();
+  }
 
   addTodoHandler() {
-    this.currentTodo = {};
+    this.currentTodo = {
+      confidential: "No",
+      remind: false
+    };
   }
 
   selectTodoHandler(id: number) {
@@ -29,7 +35,7 @@ export class TodosComponent {
   }
 
   deleteTodoHandler(id: number) {
-    this.todoService.deleteTodos(id);
+    this.todoService.deleteTodo(id);
+    this.todos = this.todoService.getTodos();
   }
-
 }
