@@ -1,4 +1,5 @@
 import { Component, Input, Output, EventEmitter, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { Todo, TYPES } from '../todo.service';
 
 @Component({
@@ -13,11 +14,15 @@ export class TodoFormComponent {
   @Output() onAddOrUpdate = new EventEmitter<Partial<Todo>>();
 
   @ViewChild('form')
-  form!: any;
+  form!: NgForm;
 
   types = TYPES;
 
-  updateTodoHandler() {
+  updateTodoHandler(event: any) {
+    event.preventDefault();
+    for (const control in this.form.controls) {
+      this.form.controls[control].markAsTouched();
+    }
     if (this.form.valid) {
       this.onAddOrUpdate.emit(this.todo);
     } else {
