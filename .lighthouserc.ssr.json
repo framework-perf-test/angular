@@ -2,8 +2,7 @@
   "ci":{
     "collect":{
       "url": ["http://localhost:4000/"],
-      "startServerCommand":"yarn serve:ssr",
-      "startServerReadyPattern": "Node Express server listening on http://localhost:4000"
+      "startServerCommand":"yarn serve:ssr"
     },
     "assert":{
       "assertions":{
