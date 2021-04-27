@@ -32,6 +32,7 @@ export class TodosComponent {
       this.todoService.updateTodo(<Todo>todo);
     }
     this.currentTodo = null;
+    this.todos = this.todoService.getTodos();
   }
 
   deleteTodoHandler(id: number) {
