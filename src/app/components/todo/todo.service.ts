@@ -26,8 +26,6 @@ export class TodoService {
     { id: 1, name: 'Add more frameworks', description: 'We need to add more frameworks', type: 'Issue', confidential: 'Yes', remind: true, date: '2021-04-07' }
   ];
 
-  constructor() { }
-
   getTodos() {
     return this.todos;
   }
@@ -42,13 +40,15 @@ export class TodoService {
   }
 
   deleteTodo(id: number) {
-    let todo = this.getTodo(id);
+    const todo = this.getTodo(id);
     const index = this.todos.indexOf(todo);
     this.todos.splice(index, 1);
   }
 
   updateTodo(update: Todo) {
     let todo = this.getTodo(update.id);
-    todo = update;
+    const todos = this.getTodos();
+    const index = todos.indexOf(todo);
+    todos[index] = update;
   }
 }
