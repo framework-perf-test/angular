@@ -5,10 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './pages/home/home.module';
 
-const IMPORTS = [
-
-];
-
 @NgModule({
   declarations: [
     AppComponent
