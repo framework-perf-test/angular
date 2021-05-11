@@ -10,8 +10,8 @@ export class TodosComponent {
   public currentTodo: Partial<Todo> | null = null;
   public todos: Todo[];
 
-  constructor(public todoService: TodoService) {
-    this.todos = todoService.getTodos();
+  constructor(private _todoService: TodoService) {
+    this.todos = _todoService.getTodos();
   }
 
   addTodoHandler() {
@@ -22,21 +22,21 @@ export class TodosComponent {
   }
 
   selectTodoHandler(id: number) {
-    this.currentTodo = this.todoService.getTodo(id);
+    this.currentTodo = this._todoService.getTodo(id);
   }
 
   onUpdateTodoHandler(todo: Partial<Todo>) {
     if (!todo.id) {
-      this.todoService.addTodo(todo);
+      this._todoService.addTodo(todo);
     } else {
-      this.todoService.updateTodo(<Todo>todo);
+      this._todoService.updateTodo(<Todo>todo);
     }
     this.currentTodo = null;
-    this.todos = this.todoService.getTodos();
+    this.todos = this._todoService.getTodos();
   }
 
   deleteTodoHandler(id: number) {
-    this.todoService.deleteTodo(id);
-    this.todos = this.todoService.getTodos();
+    this._todoService.deleteTodo(id);
+    this.todos = this._todoService.getTodos();
   }
 }
