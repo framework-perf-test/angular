@@ -1,7 +1,7 @@
 <h3>Todos <button (click)="addTodoHandler()">New</button></h3>
 <app-todo-form *ngIf="currentTodo" [todo]="currentTodo" (onAddOrUpdate)="onUpdateTodoHandler($event)"></app-todo-form>
 <br />
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th>Id</th>
