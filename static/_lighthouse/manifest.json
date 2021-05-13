@@ -1,40 +1,40 @@
 [
   {
-    "url": "http://localhost:43367/",
+    "url": "http://localhost:45003/",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.json",
     "summary": {
-      "performance": 0.78,
+      "performance": 0.79,
       "accessibility": 1,
       "best-practices": 1,
-      "seo": 0.94,
+      "seo": 0.93,
       "pwa": 0.2
     }
   },
   {
-    "url": "http://localhost:43367/",
+    "url": "http://localhost:45003/",
     "isRepresentativeRun": false,
-    "htmlPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.html",
-    "jsonPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.json",
-    "summary": {
-      "performance": 1,
-      "accessibility": 1,
-      "best-practices": 1,
-      "seo": 0.94,
-      "pwa": 0.2
-    }
-  },
-  {
-    "url": "http://localhost:43367/",
-    "isRepresentativeRun": true,
     "htmlPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.json",
     "summary": {
       "performance": 0.99,
       "accessibility": 1,
       "best-practices": 1,
-      "seo": 0.94,
+      "seo": 0.93,
+      "pwa": 0.2
+    }
+  },
+  {
+    "url": "http://localhost:45003/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.html",
+    "jsonPath": "/home/runner/work/angular/angular/dist/angular/_lighthouse/_.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.93,
       "pwa": 0.2
     }
   }
