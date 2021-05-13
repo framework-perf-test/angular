@@ -7,9 +7,9 @@ import { Todo, TodoService } from '../todo.service';
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent {
+  public currentEvent!: string;
   public currentTodo: Partial<Todo> | null = null;
   public todos: Todo[];
-  public currentEvent!: string;
 
   constructor(private _todoService: TodoService) {
     this.todos = _todoService.getTodos();
