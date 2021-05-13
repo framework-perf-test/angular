@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { TodosComponent } from './todos/todos.component';
+import { TodoViewComponent } from './todo-view/todo-view.component';
 import { TodoFormComponent } from './todo-form/todo-form.component';
 
 @NgModule({
-  declarations: [TodosComponent, TodoFormComponent],
+  declarations: [TodosComponent, TodoViewComponent, TodoFormComponent],
   imports: [
     CommonModule,
     FormsModule

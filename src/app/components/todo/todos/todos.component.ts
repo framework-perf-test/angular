@@ -9,19 +9,22 @@ import { Todo, TodoService } from '../todo.service';
 export class TodosComponent {
   public currentTodo: Partial<Todo> | null = null;
   public todos: Todo[];
+  public currentEvent!: string;
 
   constructor(private _todoService: TodoService) {
     this.todos = _todoService.getTodos();
   }
 
   addTodoHandler() {
+    this.currentEvent = 'edit';
     this.currentTodo = {
       confidential: "No",
       remind: false
     };
   }
 
-  selectTodoHandler(id: number) {
+  selectTodoHandler(id: number, currentEvent: string) {
+    this.currentEvent = currentEvent;
     this.currentTodo = this._todoService.getTodo(id);
   }
 

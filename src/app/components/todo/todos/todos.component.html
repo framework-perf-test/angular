@@ -1,5 +1,6 @@
 <h3>Todos <button (click)="addTodoHandler()">New</button></h3>
-<app-todo-form *ngIf="currentTodo" [todo]="currentTodo" (onAddOrUpdate)="onUpdateTodoHandler($event)"></app-todo-form>
+<app-todo-view *ngIf="currentTodo && currentEvent === 'view'" [todo]="currentTodo" (onClose)="currentTodo = null"></app-todo-view>
+<app-todo-form *ngIf="currentTodo && currentEvent === 'edit'" [todo]="currentTodo" (onAddOrUpdate)="onUpdateTodoHandler($event)"></app-todo-form>
 <br />
 <table width="100%">
   <thead>
@@ -22,9 +23,11 @@
       <td>{{ todo.type }}</td>
       <td>{{ todo.confidential }}</td>
       <td>{{ todo.remind }}</td>
-      <td>{{ todo.date }}</td>
+      <td>{{ todo.date | date:'yyyy-MM-dd' }}</td>
       <td>
-        <button type="button" (click)="selectTodoHandler(todo.id)">Edit</button>
+        <button type="button" (click)="selectTodoHandler(todo.id, 'view')">View</button>
+        &nbsp;
+        <button type="button" (click)="selectTodoHandler(todo.id, 'edit')">Edit</button>
         &nbsp;
         <button type="button" (click)="deleteTodoHandler(todo.id)">Delete</button>
       </td>
